@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SafarMitra</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333; color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #007bff;
+      color: white; padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    form {
+      margin-top: 20px;
+      max-width: 400px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SafarMitra</h1>
+    <p>Discover Beautiful Places with Unknown Friends</p>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>SafarMitra is a solo travel community that brings together unknown travelers to explore new destinations together.</p>
+    <p>हमारा मकसद है - सफर में दोस्त और यादें बनाना।</p>
+    <a href="#join" class="btn">Join the Trip</a>
+  </section>
+
+  <section id="join">
+    <h2>Join the Upcoming Meghalaya Trip</h2>
+    <form action="https://formsubmit.co/lastwish7445@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <textarea name="message" placeholder="Why do you want to join?" required></textarea>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 SafarMitra. All rights reserved.
+  </footer>
+
+</body>
+</html>
